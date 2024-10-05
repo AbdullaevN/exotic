@@ -1,8 +1,25 @@
-# React + Vite
+# Product Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Описание
 
-Currently, two official plugins are available:
+Это приложение для управления продуктами, которое позволяет добавлять, редактировать и просматривать список продуктов. Пользователи могут аутентифицироваться с помощью статического токена, и все данные о продуктах сохраняются в `localStorage`, что позволяет сохранить их даже после обновления страницы.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Функциональные возможности
+
+- Аутентификация с использованием статического токена
+- Добавление и редактирование продуктов
+- Просмотр списка продуктов
+- Данные сохраняются в `localStorage` для постоянства
+
+## Технологии
+
+- **React** - библиотека для построения пользовательских интерфейсов
+- **React Router** - библиотека для управления маршрутизацией
+- **Vite** - инструмент для сборки и разработки
+
+## Установка
+
+1. Клонируйте репозиторий:
+
+   ```bash
+   git clone https://github.com/...
