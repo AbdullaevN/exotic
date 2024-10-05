@@ -11,6 +11,8 @@ const App = () => {
     <Routes>
       <Route path="/admin" element={<AdminDashboard onAddProduct={setProducts} />} />
       <Route path="/products" element={<ProductList products={products} />} />
+      <Route path="/" element={<ProductList products={products} />} />
+
     </Routes>
   );
 };
